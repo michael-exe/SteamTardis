@@ -1,0 +1,88 @@
+GenericEntity {
+ ID "5D84F9EEC743FEF6"
+ components {
+  MeshObject "{5D7ED80108BF25C1}" {
+   Object "{C146F129E1514738}Assets/TARDIS UBX.xob"
+  }
+  RigidBody "{5D84F9EF133177F5}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_EditableEntityComponent "{5D84F9EB3AA4629A}" {
+   m_bAutoRegister ALWAYS
+  }
+  ActionsManagerComponent "{5D84F9ECE8D01073}" {
+   ActionContexts {
+    UserActionContext "{5D84F9EDE864B244}" {
+     ContextName "Flush"
+     Position PointInfo "{5D84F9EA30D2F1C4}" {
+      Offset 0 0 0
+     }
+     Radius 50
+     Height 50
+    }
+    UserActionContext "{5D84F9EDE9510868}" {
+     ContextName "Regenarate"
+     Position PointInfo "{5D84F9EA3F18C853}" {
+      Offset 0 0 0
+     }
+     Radius 50
+     Height 50
+    }
+    UserActionContext "{5D84F9EDE8A0770A}" {
+     ContextName "Time Travel"
+     Position PointInfo "{5D84F9EA3DB856E9}" {
+      Offset 0 0 0
+     }
+     Radius 50
+     Height 50
+    }
+    UserActionContext "{5D9CC9D03666C174}" {
+     ContextName "Teleport"
+     Position PointInfo "{5D9CC9D654065D6D}" {
+      Offset 0 0 0
+     }
+     Radius 50
+     Height 50
+    }
+   }
+   additionalActions {
+    SCR_FlushToilet "{5D84F9ED864002D7}" {
+     ParentContextList {
+      "Flush"
+     }
+     UIInfo UIInfo "{5D84F9EAE39CD743}" {
+     }
+    }
+    SCR_Tardis "{5D84F9ECCC312F62}" {
+     ParentContextList {
+      "Flush"
+     }
+     UIInfo UIInfo "{5D84F9EDA25D1884}" {
+     }
+    }
+    SCR_TimeTravel "{5D84F9EDB9C4BF7E}" {
+     ParentContextList {
+      "Flush"
+     }
+     UIInfo UIInfo "{5D84F9EAFD11265D}" {
+     }
+    }
+    SCR_Teleport "{5D9CC9D02EE03F33}" {
+     ParentContextList {
+      "Flush"
+     }
+     UIInfo UIInfo "{5D9CC9D66CBF0288}" {
+     }
+    }
+   }
+  }
+  RplComponent "{5E0EC99292BEE8DD}" {
+  }
+  Hierarchy "{5D84F9EB3D1A4974}" {
+  }
+ }
+ coords 5315.986 62.26 5396.059
+ angleY 37.997
+ scale 1.4
+}

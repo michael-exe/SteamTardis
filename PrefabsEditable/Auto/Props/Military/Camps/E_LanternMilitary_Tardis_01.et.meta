@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3F25F5B4362408FD}PrefabsEditable/Auto/Props/Military/Camps/E_LanternMilitary_Tardis_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

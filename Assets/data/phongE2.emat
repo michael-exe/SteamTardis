@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.439 0.446 0.567 1
+ Emissive 0.005 0.005 0.005 0
+ EmissiveLV 5.647
+ EmissiveMap "{3949260BB4AA4143}Assets/data/Tardis_E.edds"
+ BCRMap "{926A5F3B5D0ADA25}Assets/data/base_packed_edited.edds"
+ NMOMap "{EF24541C34316ABF}Assets/norm_packed.edds"
+}

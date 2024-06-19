@@ -1,0 +1,102 @@
+$grp GenericEntity {
+ TardisPort3 {
+  coords 4820.329 51.507 6162.347
+ }
+ TardisPort2 {
+  coords 4833.263 170.319 7015.651
+ }
+ TardisPort1 {
+  coords 5178.675 14.571 3976.484
+ }
+ PlayerPort1 {
+  coords 5158.263 13.831 3959.744
+ }
+ {
+  components {
+   MeshObject "{5E5CBBDE4559E4FF}" {
+    Object "{5102DBF98C093773}Assets/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_straight.xob"
+   }
+  }
+  coords 5178.659 14.265 3974.253
+  angleX -0.781
+  angleY 1.109
+  angleZ -0.015
+  scale 0.27
+ }
+ {
+  components {
+   MeshObject "{5E5CBBDE4559E4FF}" {
+    Object "{5102DBF98C093773}Assets/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_straight.xob"
+   }
+  }
+  coords 5178.713 14.245 3976.415
+  angleY -178.085
+  scale 0.27
+ }
+ {
+  components {
+   MeshObject "{5E5CBBDEBF9548C9}" {
+    Object "{3D639F2E50C5927C}Assets/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_wave.xob"
+   }
+  }
+  coords 5177.646 14.254 3976.151
+  angleX 3.537
+  angleY 56.595
+  scale 0.269
+ }
+ {
+  components {
+   MeshObject "{5E5CBBDEBF9548C9}" {
+    Object "{3D639F2E50C5927C}Assets/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_wave.xob"
+   }
+  }
+  coords 5179.42 14.352 3977.69
+  angleX -4.357
+  angleY -145.238
+  angleZ 2.356
+  scale 0.28
+ }
+ {
+  components {
+   MeshObject "{5E5CBBDCA371797E}" {
+    Object "{5102DBF98C093773}Assets/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_straight.xob"
+   }
+  }
+  coords 4821.478 50.861 6163.251
+  angleY -94.95
+  scale 0.507
+ }
+ {
+  components {
+   MeshObject "{5E5CBBDCBB0F31E7}" {
+    Object "{00EE4178829C5B70}Assets/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_straight.xob"
+   }
+  }
+  coords 4818.687 51.071 6166.171
+  angleY -178.623
+  scale 0.428
+ }
+ {
+  components {
+   MeshObject "{5E5EDD0DB5619355}" {
+    Object "{00EE4178829C5B70}Assets/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_straight.xob"
+   }
+  }
+  coords 4833.076 169.685 7013.76
+  scale 0.38
+ }
+ {
+  components {
+   MeshObject "{5E5EDD0DBBF92E6A}" {
+    Object "{5102DBF98C093773}Assets/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_straight.xob"
+   }
+  }
+  coords 4833.325 169.69 7017.229
+  angleX -4.394
+  angleY -178.982
+  scale 0.427
+ }
+}
+GenericEntity Tardis : "{1A7833604350B2A1}Prefabs/Tardis.et" {
+ coords 5311.963 62.091 5398.309
+}
